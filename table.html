@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style>
+        body {
+            alignment: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<h1>Fall 2017 table</h1>
+<table>
+    <tr>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+    </tr>
+    <tr>
+        <th rowspan="4">You can span down</th>
+        <th colspan="3">You can span across</th>
+    </tr>
+    <tr>
+        <th colspan="2">Its like a puzzle</th>
+        <th rowspan="3">Over Here</th>
+    </tr>
+    <tr>
+        <th rowspan="2">This way</th>
+        <th>That's way</th>
+    </tr>
+    <tr>
+        <th>Where am I?</th>
+    </tr>
+</table>
+</body>
+</html>
